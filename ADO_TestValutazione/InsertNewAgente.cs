@@ -48,6 +48,7 @@ namespace ADO_TestValutazione
                 command.CommandType = System.Data.CommandType.Text;
                 command.CommandText = "insert into Agente values(@Nome, @Cognome, @Codicefiscale, @Nascita, @Servizio)";
 
+                //altro command
                 SqlCommand command1 = new SqlCommand();
                 command1.Connection = connection;
                 command1.CommandType = System.Data.CommandType.Text;
